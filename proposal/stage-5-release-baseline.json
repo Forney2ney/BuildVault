@@ -1,0 +1,38 @@
+﻿{
+    "created":  "2026-11-11 13:11:32",
+    "files":  {
+                  "buildvault-skill/buildvault-project-intelligence/SKILL.md":  {
+                                                                                    "bytes":  17415,
+                                                                                    "sha256":  "4a27456f7ee381457b53876a86c8e6709890aeca8e36c1794f63a13740f93496"
+                                                                                },
+                  "proposal/buildvault-project-proposal.md":  {
+                                                                  "bytes":  4249,
+                                                                  "sha256":  "fac3d7406efe7c21ee6393e2105632a3e2b4d6a918d892d0eeb0dd0339ace472"
+                                                              },
+                  "proposal/buildvault-project-proposal.pdf":  {
+                                                                   "bytes":  215175,
+                                                                   "sha256":  "6187253c398ac5371b1d73ed52b3ef1e8c80c2632b380e9137a1a7f0994f8122"
+                                                               },
+                  "proposal/buildvault-initial-skill-package.zip":  {
+                                                                        "bytes":  5966,
+                                                                        "sha256":  "e844d3d9b176896d07bb87825be8811ab49ad53f76d8694debe0063b2637ac05"
+                                                                    },
+                  "proposal/submission-readiness.md":  {
+                                                           "bytes":  16351,
+                                                           "sha256":  "86ad7f1831c3cfe1b366770a0656811b634821a84e627eb9ef0696f6cc5b7041"
+                                                       },
+                  "docs/capability-audit.md":  {
+                                                   "bytes":  18216,
+                                                   "sha256":  "e44fd5402bfe0da5c95efac58110922bdf574f3544b09d01cb26c53ca926ba03"
+                                               },
+                  "docs/architecture.md":  {
+                                               "bytes":  38871,
+                                               "sha256":  "b0c53db06482e481f810d51fc9e01d41cde32c83116f6a892dee696dda110ace"
+                                           },
+                  "toolkit/data/capability-catalog.json":  {
+                                                               "bytes":  189585,
+                                                               "sha256":  "c927fd8e233696cd152baf98468368912c13c08aabeac353f0ee95c46c0428e6"
+                                                           }
+              },
+    "note":  "Stage 5 release baseline. Do not modify. Any change to these files is a release integrity violation."
+}

@@ -1,0 +1,13 @@
+timestamp,site,air_temp,air_temp_unit,humidity,humidity_unit,battery_voltage,notes
+2025-05-06T09:15:00Z,north,21.4,C,48,percent,15.1,
+2025-05-06T09:16:00Z,north,21.6,deg C,47,percent,15.0,
+2025-05-06T09:17:00Z,north,21.5,C,,15.0,humidity sensor returned no reading
+2025-05-06T09:18:00Z,north,21.9,C,46,percent,14.9,
+2025-05-06T09:19:00Z,north,n/a,C,46,percent,14.8,temperature read failed
+2025-05-06T09:20:00Z,north,21.7,C,45,percent,14.8,
+2025-05-06T09:21:00Z,north,21.6,C,45,,14.8,voltage missing
+2025-05-06T09:22:00Z,north,21.8,C,45,percent,14.7,
+05/06/2025 09:23,north,22.0,C,44,percent,14.7,date format differs from other rows
+2025-05-06T09:24:00Z,north,22.1,C,44,percent,14.6,
+2025-05-06T09:25:00Z,north,22.2,C,44,percent,14.6,
+2025-05-06T09:26:00Z,north,22.0,C,43,percent,14.5,

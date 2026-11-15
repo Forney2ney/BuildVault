@@ -1,0 +1,25 @@
+{
+  "note": "Baseline sha256 of Stage 4 fixture files. Regenerate with: node tests/run-tests.mjs --update-manifest",
+  "fixtures": {
+    "README.md": "f0440680ad42d4b583e746e821fff228562556c14f755f448cb353f81cd4081b",
+    "docs/requirements.md": "c0d1b0daf82d54f9ceb1d1d9114f3a7f4867231d65cf997e1ba1ebd0ca29a44b",
+    "docs/progress-log.md": "9f4d387cfe299563bd8bb9a4fb81b04bedfb146968e8888280e09048370d4614",
+    "docs/design-revisions.md": "b210f1a61da780352ddbede16382564ad3504d9db15b3b1c8c877b40fb702f28",
+    "docs/bill-of-materials.csv": "c2086c44daafc31238537cc875789516cdd71064252eb315012ab3958c7f2e3d",
+    "docs/bill-of-materials-copy.csv": "c2086c44daafc31238537cc875789516cdd71064252eb315012ab3958c7f2e3d",
+    "docs/test-results.md": "b17b4d9d3a5ae271960c835650c6882f819f99cf03bae82bf364419e99dc445b",
+    "docs/failure-log.md": "d563083ad04dfe145750e6f9d8e9fa96d0fdb5f1be7f1bd7ef9a745c9c75e233",
+    "docs/meeting-notes.md": "d9e9d5c5af4f12500a46fc058615d2132b267b398275ed42d28d1fc7eeb14d4b",
+    "docs/engineering-change-request.md": "0fbc57454786e3d84e6c6267ad0010e16682e69d3122b221298b5efb087b0ab6",
+    "docs/conflicting-spec-summary.md": "8167a72d66d86325c05bbf6e8ca4a8997b2132afafae3e4c4df95dc0d1e54609",
+    "docs/empty-notes.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/untitled.md": "e0610c240641d2ebe22d0864b9962b2492d163f49f133f4dccd3fea39fd136d3",
+    "docs/noise-only-notes.txt": "de2a19c3b00d3ffa650014ad729bb8f48853f2d5c30ce8abff7ded81d0cff544",
+    "docs/rover-chassis.stl": "9f73f6f7c6ad470a347a562ef19d26203dfb2b6ec8c17fb0b2b7d1f790a3fdc0",
+    "notes/ambiguous-notes.txt": "4a293694554cd3243403bb0ac150a90a3e2cfa89a7137918295afde334d8c629",
+    "data/sensor-readings.csv": "e564d0d3fda35627785fcf6fa8fbf8e2990bfc8181bb09a02387bf0b5a422bcd",
+    "data/calibration.json": "c115651e8e47a19a7a1326684f48633df6598a454ef47868baecfb953522a0b7",
+    "media/chassis-photo.png": "97263a6a0f158cf6faaf3d1805862a03a4d8bc20c8df5642b85eef38f07f830a",
+    "media/field-trial-audio.wav": "2224d8df63a966da715cacba55554d5fdb1efef85e2c685c9c4dba93e14de307"
+  }
+}

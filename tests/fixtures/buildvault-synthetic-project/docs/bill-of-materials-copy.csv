@@ -1,0 +1,13 @@
+item,category,description,specification,quantity,unit_cost,currency,notes
+ATL-001,chassis,Aluminium base plate,6 mm 6061-T6 sheet,1,85,credits,
+ATL-002,chassis,Skid plate,3 mm HDPE,2,12,credits,
+ATL-003,drive,DC gear motor 12 V 60 rpm,12 V 60 rpm,4,31,credits,
+ATL-004,drive,Motor controller rev B,rev B,4,42,credits,
+ATL-005,power,Lithium battery pack 5200 mAh,14.4 V nominal,1,210,credits,
+ATL-006,power,Battery management board,6S,1,58,credits,
+ATL-007,sensor,Temperature and humidity module,SHT31 class,2,19,credits,one spare
+ATL-008,sensor,PM2.5 particulate sensor,not selected,0,0,credits,requirement REQ-05
+ATL-009,storage,Industrial SD card 32 GB,32 GB,1,24,credits,
+ATL-010,enclosure,Gasket set,IP54 rated,1,17,credits,
+ATL-011,enclosure,Enclosure shell,ABS,1,44,credits,mass not recorded
+ATL-012,compute,Single board computer,quad core 4 GB,1,140,credits,

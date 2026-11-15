@@ -1,0 +1,33 @@
+{
+  "project": "Atlas Rover",
+  "note": "SYNTHETIC TEST FIXTURE — FICTIONAL CALIBRATION DATA.",
+  "calibrations": [
+    {
+      "sensor": "temperature",
+      "reference": "laboratory thermometer",
+      "offset_c": 0.1,
+      "date": "2025-05-06",
+      "technician": "M. Halvorsen (fictional)"
+    },
+    {
+      "sensor": "humidity",
+      "reference": "salt solution set",
+      "offset_percent": 1.2,
+      "date": "unknown",
+      "technician": null
+    },
+    {
+      "sensor": "battery_voltage",
+      "reference": "bench supply",
+      "date": "2024-11-02",
+      "technician": "recorded by an earlier team",
+      "note": "multiplier field is absent from this entry"
+    }
+  ],
+  "site_survey": {
+    "candidate_sites": 2,
+    "surveyed_by": "unknown",
+    "date": "unknown",
+    "conflicts_with": "notes/ambiguous-notes.txt says 2 sites or 3 and nobody knows which"
+  }
+}

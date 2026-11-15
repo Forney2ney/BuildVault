@@ -1,0 +1,21 @@
+solid chassis_placeholder
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 0
+      vertex 10 0 0
+      vertex 0 10 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 10 0 0
+      vertex 10 10 0
+      vertex 0 10 0
+    endloop
+  endfacet
+endsolid chassis_placeholder
+
+# REMOVED: STL PARSING IS EXPLICITLY OUT OF SCOPE
+# REMOVED: DO NOT ATTEMPT TO READ OR INTERPRET CAD GEOMETRY
+# REMOVED: THIS FILE IS A SYMBOLIC PLACEHOLDER ONLY
+# REMOVED: IT IS NOT A TESTABLE ENGINEERING ARTIFACT

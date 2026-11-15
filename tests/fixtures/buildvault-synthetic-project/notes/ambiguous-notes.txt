@@ -1,0 +1,16 @@
+Atlas working notes
+
+- battery warmer might be needed. nobody checked whether it is needed.
+- site survey: 2 sites, or 3? the count in the survey notebook does not match the
+  count in the spreadsheet. nobody has said which is right.
+- motor felt hot after the 2025-05-06 run. no temperature was measured.
+- the enclosure gasket supplier changed at some point. which revision introduced the
+  change is not written down.
+- telemetry dropout cause: unknown. some people think antenna, some think radio
+  interference. no test was done.
+- the mass figure people quote in conversation is "about 5 kg" but no document states
+  a current total mass. REV-C recorded no mass at all.
+- one person remembers the field trial being in May 2025. nobody could produce a
+  calendar entry when asked.
+- TODO: weigh the rover. never done.
+- the humidity test bench booking was cancelled. no replacement date.

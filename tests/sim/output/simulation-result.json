@@ -1,0 +1,1083 @@
+{
+  "meta": {
+    "project": "Atlas Rover — Autonomous Environmental Monitoring Rover (SYNTHETIC)",
+    "simulated": true,
+    "note": "Simulation on synthetic fixtures. No UGREEN expert, cli.invoke or NAS operation was involved.",
+    "quoteVerification": []
+  },
+  "inventory": {
+    "files": [
+      {
+        "path": "data/calibration.json",
+        "bytes": 885,
+        "modified": "2026-11-10",
+        "hash": "c115651e8e47a19a7a1326684f48633df6598a454ef47868baecfb953522a0b7",
+        "purpose": "Calibration data",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "data/sensor-readings.csv",
+        "bytes": 785,
+        "modified": "2026-11-10",
+        "hash": "e564d0d3fda35627785fcf6fa8fbf8e2990bfc8181bb09a02387bf0b5a422bcd",
+        "purpose": "Measured dataset",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/bill-of-materials-copy.csv",
+        "bytes": 866,
+        "modified": "2026-11-10",
+        "hash": "c2086c44daafc31238537cc875789516cdd71064252eb315012ab3958c7f2e3d",
+        "purpose": "BOM / cost record",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/bill-of-materials.csv",
+        "bytes": 866,
+        "modified": "2026-11-10",
+        "hash": "c2086c44daafc31238537cc875789516cdd71064252eb315012ab3958c7f2e3d",
+        "purpose": "BOM / cost record",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/conflicting-spec-summary.md",
+        "bytes": 1228,
+        "modified": "2026-11-10",
+        "hash": "8167a72d66d86325c05bbf6e8ca4a8997b2132afafae3e4c4df95dc0d1e54609",
+        "purpose": "Compiled summary (unverified)",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/design-revisions.md",
+        "bytes": 851,
+        "modified": "2026-11-10",
+        "hash": "b210f1a61da780352ddbede16382564ad3504d9db15b3b1c8c877b40fb702f28",
+        "purpose": "Design revision record",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/empty-notes.md",
+        "bytes": 0,
+        "modified": "2026-11-10",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "purpose": "Documentation",
+        "analysisStatus": "empty"
+      },
+      {
+        "path": "docs/engineering-change-request.md",
+        "bytes": 1154,
+        "modified": "2026-11-10",
+        "hash": "0fbc57454786e3d84e6c6267ad0010e16682e69d3122b221298b5efb087b0ab6",
+        "purpose": "Change request",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/failure-log.md",
+        "bytes": 1791,
+        "modified": "2026-11-10",
+        "hash": "d563083ad04dfe145750e6f9d8e9fa96d0fdb5f1be7f1bd7ef9a745c9c75e233",
+        "purpose": "Failure log",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/meeting-notes.md",
+        "bytes": 1265,
+        "modified": "2026-11-10",
+        "hash": "d9e9d5c5af4f12500a46fc058615d2132b267b398275ed42d28d1fc7eeb14d4b",
+        "purpose": "Meeting / decision record",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/noise-only-notes.txt",
+        "bytes": 269,
+        "modified": "2026-11-10",
+        "hash": "de2a19c3b00d3ffa650014ad729bb8f48853f2d5c30ce8abff7ded81d0cff544",
+        "purpose": "Documentation",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/progress-log.md",
+        "bytes": 1168,
+        "modified": "2026-11-10",
+        "hash": "9f4d387cfe299563bd8bb9a4fb81b04bedfb146968e8888280e09048370d4614",
+        "purpose": "Progress log",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/requirements.md",
+        "bytes": 1734,
+        "modified": "2026-11-10",
+        "hash": "c0d1b0daf82d54f9ceb1d1d9114f3a7f4867231d65cf997e1ba1ebd0ca29a44b",
+        "purpose": "Requirements",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/rover-chassis.stl",
+        "bytes": 509,
+        "modified": "2026-11-10",
+        "hash": "9f73f6f7c6ad470a347a562ef19d26203dfb2b6ec8c17fb0b2b7d1f790a3fdc0",
+        "purpose": "CAD placeholder (unsupported)",
+        "analysisStatus": "not analysed — format unsupported"
+      },
+      {
+        "path": "docs/test-results.md",
+        "bytes": 1861,
+        "modified": "2026-11-10",
+        "hash": "b17b4d9d3a5ae271960c835650c6882f819f99cf03bae82bf364419e99dc445b",
+        "purpose": "Test results",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "docs/untitled.md",
+        "bytes": 14,
+        "modified": "2026-11-10",
+        "hash": "e0610c240641d2ebe22d0864b9962b2492d163f49f133f4dccd3fea39fd136d3",
+        "purpose": "Documentation",
+        "analysisStatus": "insufficient content"
+      },
+      {
+        "path": "media/chassis-photo.png",
+        "bytes": 454,
+        "modified": "2026-11-10",
+        "hash": "97263a6a0f158cf6faaf3d1805862a03a4d8bc20c8df5642b85eef38f07f830a",
+        "purpose": "Media",
+        "analysisStatus": "media — no usable evidence"
+      },
+      {
+        "path": "media/field-trial-audio.wav",
+        "bytes": 12044,
+        "modified": "2026-11-10",
+        "hash": "2224d8df63a966da715cacba55554d5fdb1efef85e2c685c9c4dba93e14de307",
+        "purpose": "Media",
+        "analysisStatus": "media — no usable evidence"
+      },
+      {
+        "path": "notes/ambiguous-notes.txt",
+        "bytes": 893,
+        "modified": "2026-11-10",
+        "hash": "4a293694554cd3243403bb0ac150a90a3e2cfa89a7137918295afde334d8c629",
+        "purpose": "Working notes",
+        "analysisStatus": "analysed"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1867,
+        "modified": "2026-11-10",
+        "hash": "f0440680ad42d4b583e746e821fff228562556c14f755f448cb353f81cd4081b",
+        "purpose": "Project proposal / scope",
+        "analysisStatus": "analysed"
+      }
+    ],
+    "duplicateGroups": [
+      {
+        "hash": "c2086c44daafc31238537cc875789516cdd71064252eb315012ab3958c7f2e3d",
+        "files": [
+          "docs/bill-of-materials-copy.csv",
+          "docs/bill-of-materials.csv"
+        ]
+      }
+    ]
+  },
+  "analysedCount": 15,
+  "unusableCount": 5,
+  "unusable": [
+    {
+      "path": "docs/empty-notes.md",
+      "bytes": 0,
+      "modified": "2026-11-10",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "purpose": "Documentation",
+      "analysisStatus": "empty"
+    },
+    {
+      "path": "docs/rover-chassis.stl",
+      "bytes": 509,
+      "modified": "2026-11-10",
+      "hash": "9f73f6f7c6ad470a347a562ef19d26203dfb2b6ec8c17fb0b2b7d1f790a3fdc0",
+      "purpose": "CAD placeholder (unsupported)",
+      "analysisStatus": "not analysed — format unsupported"
+    },
+    {
+      "path": "docs/untitled.md",
+      "bytes": 14,
+      "modified": "2026-11-10",
+      "hash": "e0610c240641d2ebe22d0864b9962b2492d163f49f133f4dccd3fea39fd136d3",
+      "purpose": "Documentation",
+      "analysisStatus": "insufficient content"
+    },
+    {
+      "path": "media/chassis-photo.png",
+      "bytes": 454,
+      "modified": "2026-11-10",
+      "hash": "97263a6a0f158cf6faaf3d1805862a03a4d8bc20c8df5642b85eef38f07f830a",
+      "purpose": "Media",
+      "analysisStatus": "media — no usable evidence"
+    },
+    {
+      "path": "media/field-trial-audio.wav",
+      "bytes": 12044,
+      "modified": "2026-11-10",
+      "hash": "2224d8df63a966da715cacba55554d5fdb1efef85e2c685c9c4dba93e14de307",
+      "purpose": "Media",
+      "analysisStatus": "media — no usable evidence"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-03-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "README.md",
+      "event": "- Date: 2025-03-10"
+    },
+    {
+      "date": "2025-03-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "README.md",
+      "event": "## Version 1 scope (original, as documented on 2025-03-10)"
+    },
+    {
+      "date": "2025-03-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "README.md",
+      "event": "## Explicitly deferred in version 1 (as documented on 2025-03-10)"
+    },
+    {
+      "date": "2025-03-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "## 2025-03-10"
+    },
+    {
+      "date": "2025-03-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/meeting-notes.md",
+      "event": "version 1 scope recorded in README.md on 2025-03-10, which deferred telemetry to"
+    },
+    {
+      "date": "2025-03-14",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/design-revisions.md",
+      "event": "## REV-A — 2025-03-14 — Initial chassis"
+    },
+    {
+      "date": "2025-04-02",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "## 2025-04-02"
+    },
+    {
+      "date": "2025-04-05",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/failure-log.md",
+      "event": "## F-01 — 2025-04-05 — Right front wheel stopped"
+    },
+    {
+      "date": "2025-04-17",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "precisely against the 2025-04-17 entry."
+    },
+    {
+      "date": "2025-04-17",
+      "basis": "directly documented (format restated)",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "## 2025/04/17"
+    },
+    {
+      "date": "2025-04-20",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/design-revisions.md",
+      "event": "## REV-B — 2025-04-20 — Battery change"
+    },
+    {
+      "date": "2025-04-28",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/test-results.md",
+      "event": "## T-06 — Waypoint upload over cable — 2025-04-28"
+    },
+    {
+      "date": "2025-04-28",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/failure-log.md",
+      "event": "## F-02 — 2025-04-28 — SD card corruption after power loss"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "## 2025-05-06"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/test-results.md",
+      "event": "## T-01 — Runtime on one charge — 2025-05-06"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/test-results.md",
+      "event": "## T-02 — Temperature sensor accuracy — 2025-05-06"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/test-results.md",
+      "event": "## T-04 — SD logging integrity — 2025-05-06"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/failure-log.md",
+      "event": "## F-03 — 2025-05-06 — Telemetry link dropped during field trial"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/meeting-notes.md",
+      "event": "## Meeting 2025-05-06 — north prototype site"
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/engineering-change-request.md",
+      "event": "Requested by: J. Okonkwo (fictional). Date: 2025-05-06."
+    },
+    {
+      "date": "2025-05-06",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/engineering-change-request.md",
+      "event": "Status: APPROVED by decision D-2 on 2025-05-06."
+    },
+    {
+      "date": "2025-05-10",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/engineering-change-request.md",
+      "event": "Requested by: M. Halvorsen (fictional). Date: 2025-05-10."
+    },
+    {
+      "date": "2025-05-14",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/engineering-change-request.md",
+      "event": "Requested by: A. Rivera (fictional). Date: 2025-05-14."
+    },
+    {
+      "date": "2025-05-19",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/meeting-notes.md",
+      "event": "## Meeting 2025-05-19 — follow-up"
+    },
+    {
+      "date": "2025-05-19",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/engineering-change-request.md",
+      "event": "Status: PROPOSED, NOT APPROVED. Reviewed in meeting 2025-05-19 and still unapproved."
+    },
+    {
+      "date": "2025-05-22",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/design-revisions.md",
+      "event": "## REV-C — 2025-05-22 — Motor controller and battery upgrade"
+    },
+    {
+      "date": "2025-06-01",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/progress-log.md",
+      "event": "## 2025-06-01"
+    },
+    {
+      "date": "2025-06-01",
+      "basis": "directly documented",
+      "sourceKind": "project document",
+      "source": "docs/test-results.md",
+      "event": "## T-07 — Heading drift — 2025-06-01"
+    }
+  ],
+  "ambiguousDates": [
+    {
+      "text": "March 14",
+      "source": "docs/progress-log.md",
+      "reason": "no year recorded",
+      "basis": "missing evidence"
+    },
+    {
+      "text": "Late April",
+      "source": "docs/progress-log.md",
+      "reason": "no day recorded, position undetermined",
+      "basis": "missing evidence"
+    },
+    {
+      "text": "Undated",
+      "source": "docs/progress-log.md",
+      "reason": "no date recorded",
+      "basis": "missing evidence"
+    },
+    {
+      "text": "05/06/2025 09:23",
+      "source": "data/sensor-readings.csv",
+      "reason": "format differs from the other rows",
+      "basis": "directly documented"
+    },
+    {
+      "text": "\"date\": \"unknown\"",
+      "source": "data/calibration.json",
+      "reason": "date explicitly unknown",
+      "basis": "missing evidence"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "REQ-01",
+      "requirement": "Four independently driven wheels",
+      "classification": "documented complete",
+      "sources": [
+        "docs/design-revisions.md"
+      ],
+      "evidence": "REV-A records the four-wheel skid-steer configuration",
+      "basis": "directly documented",
+      "verifiedByTest": false
+    },
+    {
+      "id": "REQ-02",
+      "requirement": "Minimum 8 h runtime on one charge",
+      "classification": "documented in progress",
+      "sources": [
+        "docs/test-results.md"
+      ],
+      "evidence": "T-01 measured 5 h 20 min against the 8 h requirement",
+      "basis": "directly documented",
+      "verifiedByTest": true
+    },
+    {
+      "id": "REQ-03",
+      "requirement": "Temperature accuracy within plus or minus 0.5 degrees C",
+      "classification": "documented complete",
+      "sources": [
+        "docs/test-results.md"
+      ],
+      "evidence": "T-02 measured plus or minus 0.3 degrees C",
+      "basis": "directly documented",
+      "verifiedByTest": true
+    },
+    {
+      "id": "REQ-04",
+      "requirement": "Humidity accuracy within plus or minus 3 percent",
+      "classification": "not evidenced",
+      "sources": [
+        "docs/test-results.md"
+      ],
+      "evidence": "T-03 has no recorded result",
+      "basis": "missing evidence",
+      "evidenceNeeded": "A humidity accuracy test result against the reference set",
+      "blockedBy": "missing test bench booking"
+    },
+    {
+      "id": "REQ-05",
+      "requirement": "PM2.5 particulate sensing",
+      "classification": "not evidenced",
+      "sources": [
+        "docs/requirements.md",
+        "docs/bill-of-materials.csv"
+      ],
+      "evidence": "No test evidence located; BOM item ATL-008 is not selected, quantity 0",
+      "basis": "missing evidence",
+      "evidenceNeeded": "A completed particulate test, or a statement the sensor was not fitted in version 1"
+    },
+    {
+      "id": "REQ-06",
+      "requirement": "Waypoint upload over cable",
+      "classification": "documented complete",
+      "sources": [
+        "docs/test-results.md"
+      ],
+      "evidence": "T-06 uploaded 12 waypoint files without error",
+      "basis": "directly documented",
+      "verifiedByTest": true
+    },
+    {
+      "id": "REQ-07",
+      "requirement": "SD logging at 1 Hz with no lost records",
+      "classification": "documented complete",
+      "sources": [
+        "docs/test-results.md"
+      ],
+      "evidence": "T-04 recorded 21,600 records with zero lost",
+      "basis": "directly documented",
+      "verifiedByTest": true
+    },
+    {
+      "id": "REQ-08",
+      "requirement": "Ingress protection rated IP54",
+      "classification": "conflicting evidence",
+      "sources": [
+        "docs/design-revisions.md",
+        "docs/conflicting-spec-summary.md"
+      ],
+      "evidence": "REV-A/B/C record IP54; the compiled summary records IP65; T-05 has no result",
+      "basis": "conflicting",
+      "conflictValues": [
+        "IP54",
+        "IP65"
+      ],
+      "resolutionNeeded": "An enclosure ingress retest, or a decision record naming the authoritative figure"
+    },
+    {
+      "id": "REQ-09",
+      "requirement": "Total vehicle mass under 6 kg",
+      "classification": "documented in progress",
+      "sources": [
+        "docs/design-revisions.md",
+        "docs/bill-of-materials.csv"
+      ],
+      "evidence": "REV-B estimated 5.8 kg; REV-C recorded no mass; ATL-011 mass not recorded",
+      "basis": "directly documented",
+      "verifiedByTest": false,
+      "blockedBy": "no measured mass anywhere"
+    },
+    {
+      "id": "REQ-10",
+      "requirement": "Live telemetry",
+      "classification": "documented complete",
+      "sources": [
+        "docs/meeting-notes.md",
+        "docs/engineering-change-request.md"
+      ],
+      "evidence": "D-2 and ECR-001 record approval for version 1, which contradicts the original deferred scope",
+      "basis": "directly documented",
+      "scopeChange": "approved expansion"
+    }
+  ],
+  "scope": [
+    {
+      "item": "Live telemetry in version 1",
+      "finding": "approved scope expansion",
+      "authority": "D-2 and ECR-001, 2025-05-06",
+      "sources": [
+        "docs/meeting-notes.md",
+        "docs/engineering-change-request.md"
+      ],
+      "basis": "directly documented"
+    },
+    {
+      "item": "Ultrasonic obstacle detection in version 1",
+      "finding": "unapproved suggestion",
+      "authority": "ECR-002 proposed 2025-05-10, reviewed 2025-05-19, still unapproved",
+      "sources": [
+        "docs/engineering-change-request.md",
+        "docs/meeting-notes.md"
+      ],
+      "basis": "directly documented"
+    },
+    {
+      "item": "Solar top-up panel",
+      "finding": "unapproved suggestion",
+      "authority": "ECR-003 proposed 2025-05-14, no review",
+      "sources": [
+        "docs/engineering-change-request.md"
+      ],
+      "basis": "directly documented"
+    },
+    {
+      "item": "PM2.5 particulate sensing",
+      "finding": "not evidenced",
+      "authority": "Deferred in the original scope; no evidence of work",
+      "sources": [
+        "README.md",
+        "docs/requirements.md"
+      ],
+      "basis": "missing evidence",
+      "note": "Reported as missing evidence, never as scope creep"
+    },
+    {
+      "item": "Number of prototype sites",
+      "finding": "conflicting information",
+      "authority": "Ambiguous notes say 2 or 3; calibration data records 2",
+      "sources": [
+        "notes/ambiguous-notes.txt",
+        "data/calibration.json"
+      ],
+      "basis": "conflicting"
+    }
+  ],
+  "readiness": {
+    "counts": {
+      "complete": 5,
+      "inProgress": 2,
+      "notEvidenced": 2,
+      "conflicting": 1,
+      "planned": 0
+    },
+    "noScore": true,
+    "basis": "classification counts over 10 requirements, each with its evidence",
+    "cannotEstablish": [
+      "Whether requirements with no test evidence were physically completed.",
+      "The correct value of any figure that two documents disagree on.",
+      "Total vehicle mass, because no document records a current figure.",
+      "Any percentage completion, because coverage of the project is unknown."
+    ]
+  },
+  "recommendations": {
+    "list": [
+      {
+        "priority": 1,
+        "action": "Weigh the complete rover on a calibrated scale and record the total mass.",
+        "reason": "REQ-09 cannot be assessed: REV-C recorded no mass and ATL-011 records none.",
+        "source": "documented project facts",
+        "sources": [
+          "docs/design-revisions.md",
+          "docs/bill-of-materials.csv",
+          "docs/requirements.md"
+        ],
+        "dependsOn": "nothing",
+        "evidenceNeeded": "A measured mass in kilograms, recorded in a document.",
+        "closesGap": "The unassessable mass requirement.",
+        "riskIfSkipped": "The version 1 mass requirement cannot be accepted or rejected.",
+        "basis": "missing evidence"
+      },
+      {
+        "priority": 2,
+        "action": "Run the humidity accuracy test that T-03 never ran, and record the result.",
+        "reason": "REQ-04 has no supporting measurement anywhere in the project.",
+        "source": "documented project facts",
+        "sources": [
+          "docs/test-results.md",
+          "docs/requirements.md"
+        ],
+        "dependsOn": "a humidity reference set and a booked test bench",
+        "evidenceNeeded": "A measured accuracy figure against the reference set.",
+        "closesGap": "The missing test result for REQ-04.",
+        "riskIfSkipped": "A stated requirement has never been verified.",
+        "basis": "missing evidence"
+      },
+      {
+        "priority": 3,
+        "action": "Identify which document is authoritative for battery capacity and ingress rating, then record a decision.",
+        "reason": "Five documented values conflict; D-4 records that nobody present could say which is correct.",
+        "source": "documented project facts",
+        "sources": [
+          "docs/conflicting-spec-summary.md",
+          "docs/meeting-notes.md",
+          "docs/design-revisions.md"
+        ],
+        "dependsOn": "physical inspection of the battery and an enclosure retest, per D-4",
+        "evidenceNeeded": "A decision record naming the authoritative source, or a physical measurement.",
+        "closesGap": "The REQ-08 conflict and two specification conflicts.",
+        "riskIfSkipped": "Downstream documents keep citing the wrong figure.",
+        "basis": "conflicting evidence"
+      },
+      {
+        "priority": 4,
+        "action": "Record the cause investigation for the telemetry dropouts as an open item, or close it with a packet capture.",
+        "reason": "F-03 records the cause as unknown; antenna orientation and interference were suggested but untested.",
+        "source": "documented project facts",
+        "sources": [
+          "docs/failure-log.md"
+        ],
+        "dependsOn": "a telemetry session with packet capture",
+        "evidenceNeeded": "A packet capture or a controlled antenna test.",
+        "closesGap": "An unexplained field-trial failure.",
+        "riskIfSkipped": "The failure recurs in the next field trial.",
+        "basis": "missing evidence"
+      },
+      {
+        "priority": 5,
+        "action": "Resolve the prototype site count and record which survey document is correct.",
+        "reason": "The notes record 2 or 3; the calibration data records 2; nobody has reconciled them.",
+        "source": "documented project facts",
+        "sources": [
+          "notes/ambiguous-notes.txt",
+          "data/calibration.json"
+        ],
+        "dependsOn": "the survey notebook",
+        "evidenceNeeded": "The survey notebook, or a new site survey.",
+        "closesGap": "A scope ambiguity affecting the field trial plan.",
+        "riskIfSkipped": "The trial plan covers the wrong number of sites.",
+        "basis": "conflicting evidence"
+      }
+    ],
+    "next15Minute": {
+      "action": "Weigh the complete rover on a calibrated scale and record the total mass.",
+      "reason": "REQ-09 cannot be assessed: REV-C recorded no mass and ATL-011 records none.",
+      "basis": "missing evidence",
+      "notCovered": "It does not resolve any conflict, and it does not verify humidity or particulate sensing.",
+      "startableNow": true
+    }
+  },
+  "registers": {
+    "decisionRegister": [
+      {
+        "id": "D-1",
+        "date": "2025-05-06",
+        "decision": "Field trial scope confirmed as a single 1 km loop at the north site",
+        "reason": "Recorded in the meeting",
+        "approval": "recorded as a decision",
+        "source": "docs/meeting-notes.md"
+      },
+      {
+        "id": "D-2",
+        "date": "2025-05-06",
+        "decision": "Live telemetry module approved for the version 1 build",
+        "reason": "The field trial review needed live monitoring",
+        "approval": "approved",
+        "source": "docs/meeting-notes.md",
+        "note": "Contradicts the version 1 scope recorded on 2025-03-10"
+      },
+      {
+        "id": "D-3",
+        "date": "2025-05-06",
+        "decision": "Obstacle avoidance remains out of scope; ECR-002 to be reviewed",
+        "reason": "No approval given in this meeting",
+        "approval": "deferred",
+        "source": "docs/meeting-notes.md"
+      },
+      {
+        "id": "D-4",
+        "date": "2025-05-19",
+        "decision": "Conflicting ingress and battery figures left unresolved pending inspection",
+        "reason": "Nobody present could say which document is correct",
+        "approval": "recorded as unresolved",
+        "source": "docs/meeting-notes.md"
+      },
+      {
+        "id": "D-5",
+        "date": "2025-05-19",
+        "decision": "ECR-002 reviewed again and remains unapproved",
+        "reason": "Still a proposal",
+        "approval": "not approved",
+        "source": "docs/meeting-notes.md"
+      }
+    ],
+    "testRegister": [
+      {
+        "id": "T-01",
+        "date": "2025-05-06",
+        "requirement": "REQ-02",
+        "outcome": "5 h 20 min against a minimum 8 h",
+        "met": false,
+        "source": "docs/test-results.md",
+        "note": "Duty cycle definition not recorded; single run"
+      },
+      {
+        "id": "T-02",
+        "date": "2025-05-06",
+        "requirement": "REQ-03",
+        "outcome": "plus or minus 0.3 degrees C against plus or minus 0.5",
+        "met": true,
+        "source": "docs/test-results.md"
+      },
+      {
+        "id": "T-03",
+        "requirement": "REQ-04",
+        "outcome": "no result recorded",
+        "met": null,
+        "source": "docs/test-results.md",
+        "note": "Missing evidence"
+      },
+      {
+        "id": "T-04",
+        "date": "2025-05-06",
+        "requirement": "REQ-07",
+        "outcome": "21,600 records, zero lost over 6 h at 1 Hz",
+        "met": true,
+        "source": "docs/test-results.md",
+        "note": "Single run"
+      },
+      {
+        "id": "T-05",
+        "requirement": "REQ-08",
+        "outcome": "no result recorded",
+        "met": null,
+        "source": "docs/test-results.md",
+        "note": "Missing evidence; enclosure changed after REV-C"
+      },
+      {
+        "id": "T-06",
+        "date": "2025-04-28",
+        "requirement": "REQ-06",
+        "outcome": "12 waypoint files uploaded without error",
+        "met": true,
+        "source": "docs/test-results.md"
+      },
+      {
+        "id": "T-07",
+        "date": "2025-06-01",
+        "requirement": "unassigned",
+        "outcome": "drift 3% over 50 m, unit and period not stated",
+        "met": null,
+        "source": "docs/test-results.md",
+        "note": "Partially usable: value documented, meaning ambiguous"
+      }
+    ],
+    "failureRegister": [
+      {
+        "id": "F-01",
+        "date": "2025-04-05",
+        "symptom": "Right front wheel stopped while reversing",
+        "action": "Connector reseated; wheel worked afterwards",
+        "causeStatus": "unknown",
+        "source": "docs/failure-log.md"
+      },
+      {
+        "id": "F-02",
+        "date": "2025-04-28",
+        "symptom": "SD card held an unreadable directory after power loss",
+        "action": "Card reformatted; graceful shutdown added to firmware",
+        "causeStatus": "confirmed",
+        "source": "docs/failure-log.md"
+      },
+      {
+        "id": "F-03",
+        "date": "2025-05-06",
+        "symptom": "Telemetry link dropped twice during the field trial",
+        "action": "Rover continued logging; link recovered on its own",
+        "causeStatus": "unknown",
+        "source": "docs/failure-log.md"
+      }
+    ],
+    "bom": {
+      "lines": [
+        {
+          "item": "ATL-001",
+          "description": "Aluminium base plate",
+          "specification": "6 mm 6061-T6 sheet",
+          "quantity": 1,
+          "unitCost": 85,
+          "total": 85,
+          "note": ""
+        },
+        {
+          "item": "ATL-002",
+          "description": "Skid plate",
+          "specification": "3 mm HDPE",
+          "quantity": 2,
+          "unitCost": 12,
+          "total": 24,
+          "note": ""
+        },
+        {
+          "item": "ATL-003",
+          "description": "DC gear motor 12 V 60 rpm",
+          "specification": "12 V 60 rpm",
+          "quantity": 4,
+          "unitCost": 31,
+          "total": 124,
+          "note": ""
+        },
+        {
+          "item": "ATL-004",
+          "description": "Motor controller rev B",
+          "specification": "rev B",
+          "quantity": 4,
+          "unitCost": 42,
+          "total": 168,
+          "note": ""
+        },
+        {
+          "item": "ATL-005",
+          "description": "Lithium battery pack 5200 mAh",
+          "specification": "14.4 V nominal",
+          "quantity": 1,
+          "unitCost": 210,
+          "total": 210,
+          "note": ""
+        },
+        {
+          "item": "ATL-006",
+          "description": "Battery management board",
+          "specification": "6S",
+          "quantity": 1,
+          "unitCost": 58,
+          "total": 58,
+          "note": ""
+        },
+        {
+          "item": "ATL-007",
+          "description": "Temperature and humidity module",
+          "specification": "SHT31 class",
+          "quantity": 2,
+          "unitCost": 19,
+          "total": 38,
+          "note": "one spare"
+        },
+        {
+          "item": "ATL-008",
+          "description": "PM2.5 particulate sensor",
+          "specification": "not selected",
+          "quantity": 0,
+          "unitCost": 0,
+          "total": 0,
+          "note": "requirement REQ-05"
+        },
+        {
+          "item": "ATL-009",
+          "description": "Industrial SD card 32 GB",
+          "specification": "32 GB",
+          "quantity": 1,
+          "unitCost": 24,
+          "total": 24,
+          "note": ""
+        },
+        {
+          "item": "ATL-010",
+          "description": "Gasket set",
+          "specification": "IP54 rated",
+          "quantity": 1,
+          "unitCost": 17,
+          "total": 17,
+          "note": ""
+        },
+        {
+          "item": "ATL-011",
+          "description": "Enclosure shell",
+          "specification": "ABS",
+          "quantity": 1,
+          "unitCost": 44,
+          "total": 44,
+          "note": "mass not recorded"
+        },
+        {
+          "item": "ATL-012",
+          "description": "Single board computer",
+          "specification": "quad core 4 GB",
+          "quantity": 1,
+          "unitCost": 140,
+          "total": 140,
+          "note": ""
+        }
+      ],
+      "total": 932,
+      "incomplete": false,
+      "currency": "credits"
+    }
+  },
+  "conflicts": [
+    {
+      "id": "F-04",
+      "kind": "specification",
+      "claim": "Battery capacity recorded as 5200 mAh in revision REV-C.",
+      "source": "docs/design-revisions.md",
+      "sourceQuote": "Battery: lithium pack, 5200 mAh, 14.4 V nominal.",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "F-05"
+      ]
+    },
+    {
+      "id": "F-05",
+      "kind": "specification",
+      "claim": "Battery capacity recorded as 6400 mAh in the compiled summary.",
+      "source": "docs/conflicting-spec-summary.md",
+      "sourceQuote": "| Battery capacity | 6400 mAh |",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "F-04"
+      ]
+    },
+    {
+      "id": "F-06",
+      "kind": "specification",
+      "claim": "Enclosure ingress rating IP54 in revisions A, B and C.",
+      "source": "docs/design-revisions.md",
+      "sourceQuote": "Enclosure ingress rating: IP54.",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "F-07"
+      ]
+    },
+    {
+      "id": "F-07",
+      "kind": "specification",
+      "claim": "Enclosure ingress rating IP65 in the compiled summary.",
+      "source": "docs/conflicting-spec-summary.md",
+      "sourceQuote": "| Enclosure ingress rating | IP65 |",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "F-06"
+      ]
+    },
+    {
+      "id": "EV-07",
+      "claim": "Site count is ambiguous between two and three.",
+      "source": "notes/ambiguous-notes.txt",
+      "sourceQuote": "site survey: 2 sites, or 3? the count in the survey notebook does not match",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "EV-08"
+      ]
+    },
+    {
+      "id": "EV-08",
+      "claim": "The calibration data records two candidate sites.",
+      "source": "data/calibration.json",
+      "sourceQuote": "\"candidate_sites\": 2",
+      "basis": "conflicting",
+      "conflictsWith": [
+        "EV-07"
+      ]
+    }
+  ],
+  "missing": [
+    {
+      "id": "F-10",
+      "kind": "missing evidence",
+      "claim": "No PM2.5 particulate test evidence exists anywhere in the fixture.",
+      "source": "docs/requirements.md",
+      "sourceQuote": "| REQ-05 | PM2.5 particulate sensing | README.md deferred list | No test evidence located |",
+      "basis": "missing evidence",
+      "evidenceNeeded": "A completed particulate sensing test with a measured result, or a statement that the sensor was not fitted."
+    },
+    {
+      "id": "F-11",
+      "kind": "missing evidence",
+      "claim": "Relative humidity test T-03 has no recorded result.",
+      "source": "docs/test-results.md",
+      "sourceQuote": "Requirement: plus or minus 3 percent. No result was recorded.",
+      "basis": "missing evidence",
+      "evidenceNeeded": "A humidity accuracy test result against the reference set."
+    },
+    {
+      "id": "EV-05",
+      "claim": "BOM total requires a mass value that one item does not record.",
+      "source": "docs/bill-of-materials.csv",
+      "sourceQuote": "ATL-011,enclosure,Enclosure shell,ABS,1,44,credits,mass not recorded",
+      "basis": "missing evidence",
+      "evidenceNeeded": "A measured mass for the enclosure shell."
+    },
+    {
+      "id": "EV-06",
+      "claim": "Heading drift measurement lacks a stated unit or period.",
+      "source": "docs/test-results.md",
+      "sourceQuote": "Whether the drift rate is per hour, per minute, or total over the run is not stated",
+      "basis": "missing evidence",
+      "evidenceNeeded": "The instrument identification and the drift rate unit."
+    }
+  ],
+  "quoteProblems": []
+}
